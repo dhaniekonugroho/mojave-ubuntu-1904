@@ -16,6 +16,8 @@ wget https://dl.opendesktop.org/api/files/download/id/1563744886/s/2c3884dfacb89
 echo "Extracting files"
 tar -xvf Mojave-dark.tar.xz
 tar -xvf Mojave-light.tar.xz
+tar -xvf Mojave-CT-Night-Mode.tar.xz
+tar -xvf Mojave-CT-Light.tar.xz
 
 sudo mv Mojave-light /usr/share/themes
 sudo mv Mojave-dark /usr/share/themes
