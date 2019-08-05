@@ -36,3 +36,6 @@ gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM
 gsettings set org.gnome.shell enable-hot-corners "true"
 #To reset the dock, use this command
 #dconf reset -f /org/gnome/shell/extensions/dash-to-dock/
+echo "To complete the transformation, please open your web browser and install the Gnome extension pack"
+/usr/bin/firefox https://extensions.gnome.org/
+/usr/bin/firefox https://extensions.gnome.org/extension/19/user-themes/
