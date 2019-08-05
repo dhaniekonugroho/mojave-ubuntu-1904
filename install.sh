@@ -21,6 +21,7 @@ sudo mv Mojave-light /usr/share/themes
 sudo mv Mojave-dark /usr/share/themes
 sudo mv Mojave-CT-Light /usr/share/icons
 sudo mv Mojave-CT-Night-Mode /usr/share/icons
+sudo cp macOS-Mojave-Day-wallpaper.jpg /usr/share/backgrounds/
 
 gsettings set org.gnome.desktop.interface gtk-theme "Mojave-light"
 gsettings set org.gnome.desktop.interface icon-theme 'Mojave-CT-Light'
