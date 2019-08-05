@@ -6,7 +6,7 @@ echo "Please wait"
 echo "......"
 echo "This will update your system "
 
-sudo apt update && sudo apt upgrade
+#sudo apt update && sudo apt upgrade
 
 echo "installing gnome tweak tool and chrome gnome shell"
 sudo apt install gnome-tweak-tool chrome-gnome-shell
