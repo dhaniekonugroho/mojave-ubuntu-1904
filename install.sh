@@ -11,12 +11,12 @@ echo "This will update your system "
 echo "installing gnome tweak tool and chrome gnome shell"
 sudo apt install gnome-tweak-tool chrome-gnome-shell
 
-wget https://dl.opendesktop.org/api/files/download/id/1563744886/s/2c3884dfacb89f2495ea0bb996176c052e31cbf869c15b5f32b1232d39936b953abf17180317e3d9510a2080a66fd6296a322bad3d53941b8cbb0b917ab972ca/t/1564997371/lt/download/Mojave-CT-Light.tar.xz
+#wget https://dl.opendesktop.org/api/files/download/id/1563744886/s/2c3884dfacb89f2495ea0bb996176c052e31cbf869c15b5f32b1232d39936b953abf17180317e3d9510a2080a66fd6296a322bad3d53941b8cbb0b917ab972ca/t/1564997371/lt/download/Mojave-CT-Light.tar.xz
 
 echo "Extracting files"
 tar -xvf Mojave-dark.tar.xz
 tar -xvf Mojave-light.tar.xz
-tar -xvf Mojave-CT-Night-Mode.tar.xz
+#tar -xvf Mojave-CT-Night-Mode.tar.xz
 tar -xvf Mojave-CT-Light.tar.xz
 
 sudo mv Mojave-light /usr/share/themes
